@@ -6,7 +6,7 @@ const DB = new sqlite3.Database(DB_PATH) //коннект к файлу
 DB.serialize(() => {
     //запрос на создание если не существует
     DB.run(
-        'CREATE TABLE IF NOT EXISTS Kids (id INTEGER PRIMARY KEY UNIQUE, thing TEXT, price TEXT, customer TEXT,age TEXT)'
+        'CREATE TABLE IF NOT EXISTS Kids (id INTEGER PRIMARY KEY UNIQUE, thing TEXT, price TEXT, customer TEXT)'
     )
 })
 module.exports = DB

@@ -7,7 +7,7 @@ router.get('/', function(req, res) {
 })
 //получение данных
 router.post('/', (req, res) => {
-    const { customer, thing, price,age, } = req.body //обьект куда помещаются полученные данные
+    const { customer, thing, price,age } = req.body //обьект куда помещаются полученные данные
     db.run(
         `INSERT INTO Kids VALUES (NULL, '${customer}','${thing}','${price}','${age}')`
     ) //запрос на добавление в базу

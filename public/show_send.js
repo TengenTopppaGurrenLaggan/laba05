@@ -51,7 +51,7 @@ document.getElementById('registerForm').onsubmit = async (e) => {
     const data = { 
         customer: elements[0].value,
         thing: elements[1].value,
-        price: elements[2].value
+        price: elements[2].value,
         age: elements[3].value,
     }
     console.log(data);

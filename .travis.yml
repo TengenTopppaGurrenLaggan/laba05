@@ -6,4 +6,4 @@ script:
 deploy:
   provider: heroku
   api_key: $key
-  app: thawing-citadel-21048
+  app: gentle-mesa-03771

@@ -1,0 +1,62 @@
+h1{
+    font-family: Arial;
+    font-size: 30px;
+    text-align: center;
+    
+}
+h2{
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+}
+h3{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+}
+div{
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center;
+}
+p{
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+    margin-left: 1%;
+}
+ul{
+    font-family: Arial;
+    font-size: 18px;
+    text-align: left;
+}
+ol{
+    font-family: Arial;
+    font-size: 18px;
+    text-align: left;
+}
+table{
+    margin: auto;
+}
+td{
+    font-family: Arial;
+    font-size: 16px;
+    text-align: center;
+}
+body{
+    background-color: white;
+    border: solid;
+    border-color: gainsboro;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+span{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bolder;
+    color: red;
+}
+a:hover{
+    color: green;
+}

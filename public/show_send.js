@@ -11,6 +11,7 @@ const show = async() => {
             <td>${elem.customer}</td>
             <td>${elem.thing}</td>
             <td>${elem.price}</td>
+            <td>${elem.age}</td>
           </tr>`
         ));
     //вставка новых елементов через форму выше
@@ -20,7 +21,8 @@ const show = async() => {
         <th>Id</th>
         <th>Customer</th>
         <th>Thing</th>
-        <th>Price</th>      
+        <th>Price</th>    
+        <th>age</th>   
       </tr>
     </thead>
     <tbody>
@@ -50,6 +52,7 @@ document.getElementById('registerForm').onsubmit = async (e) => {
         customer: elements[0].value,
         thing: elements[1].value,
         price: elements[2].value
+        age: elements[3].value
     }
     console.log(data);
     //отправляем запрос на сервер с отправкой обьекта data

@@ -11,7 +11,6 @@ const show = async() => {
             <td>${elem.customer}</td>
             <td>${elem.thing}</td>
             <td>${elem.price}</td>
-            <td>${elem.number}</td>
           </tr>`
         ));
     //вставка новых елементов через форму выше
@@ -21,8 +20,7 @@ const show = async() => {
         <th>Id</th>
         <th>Customer</th>
         <th>Thing</th>
-        <th>Price</th>
-        <th>Number</th>
+        <th>Price</th>      
       </tr>
     </thead>
     <tbody>

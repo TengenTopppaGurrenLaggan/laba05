@@ -52,7 +52,7 @@ document.getElementById('registerForm').onsubmit = async (e) => {
         customer: elements[0].value,
         thing: elements[1].value,
         price: elements[2].value
-        age: elements[3].value
+        age: elements[3].value,
     }
     console.log(data);
     //отправляем запрос на сервер с отправкой обьекта data
